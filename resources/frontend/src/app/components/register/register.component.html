@@ -1,0 +1,7 @@
+<form [formGroup]="frm" (ngSubmit)="submit(frm)">
+  <input type="hidden" formControlName="_token" ngModel="{{ token }}">
+  <input type="text" formControlName="username">
+  <input type="email" formControlName="email">
+  <input type="password" formControlName="password">
+  <input type="submit">
+</form>

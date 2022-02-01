@@ -1,0 +1,71 @@
+.btn-hover:hover {
+    background-color: #11111111;
+}
+
+#avatar {
+    width: 160px;
+    height: 160px;
+}
+
+#label_avatar_upload {
+    position: relative;
+}
+
+#avatar_background:hover {
+    background-color: #11111166;
+}
+
+#avatar_background:hover + #avatar_text {
+    display: block;
+}
+
+#avatar_background {
+    position: absolute;
+    display: none;
+    border-radius: 50%;
+    top: 0px;
+    height: 160px;
+    width: 160px;
+    cursor: pointer;
+}
+
+#avatar_text {
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    pointer-events: none;
+}
+
+.course-image {
+    min-width: 100%;
+}
+
+/*.previewImg {*/
+/*    display: block;*/
+/*    width: 100%;*/
+/*    min-width: 0px;*/
+/*    min-height: 0px;*/
+/*}*/
+
+.cropper-container {
+    max-width: 100%;
+}
+
+.cropper-image {
+    width: 100%;
+}
+
+.cropper-crop-box, .cropper-view-box {
+    border-radius: 50%;
+}
+
+.cropper-view-box {
+    box-shadow: 0 0 0 1px #39f;
+    outline: 0;
+}
+
+cropper-container {
+    width: 100%;
+}
+
